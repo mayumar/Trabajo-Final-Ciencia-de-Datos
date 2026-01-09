@@ -66,3 +66,8 @@ Naive Bayes: {'var_smoothing': 1.7844266697875203e-08}
 
 CatBoost: F1 = 0.6052
 CatBoost: {'iterations': 416, 'learning_rate': 0.016142916949417187, 'depth': 5, 'l2_leaf_reg': 0.0026257534323976266, 'rsm': 0.5411506888385599, 'subsample': 0.9454827397199126, 'border_count': 224, 'random_strength': 1.9189217052255272, 'auto_class_weights': 'SqrtBalanced'}
+
+
+
+MLP: F1 = 0.5578
+MLP: {'hidden_layer_sizes': (100, 50), 'activation': 'logistic', 'solver': 'adam', 'alpha': 0.0002439660267886242, 'learning_rate': 'constant', 'learning_rate_init': 0.0035252052289406555, 'max_iter': 100}
