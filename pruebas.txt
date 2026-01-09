@@ -1,0 +1,68 @@
+CatBoost: F1 = 0.5769
+LightGBM: F1 = 0.5754 -> Mejor resultado en Kaggle
+XGBoost: F1 = 0.5695
+Gradient Boosting: F1 = 0.5692
+MLP: F1 = 0.5603
+Random Forest: F1 = 0.5566
+Decision Tree: F1 = 0.5377
+SVM (RBF): F1 = 0.5204
+KNN: F1 = 0.4931
+Naive Bayes: F1 = 0.4358
+Logistic Regression: F1 = 0.3123
+
+
+
+Logistic Regression: {'C': 0.7239163769288748, 'max_iter': 200}
+Decision Tree: {'criterion': 'gini', 'splitter': 'best', 'max_depth': 29, 'min_samples_split': 42, 'min_samples_leaf': 3, 'max_features': None, 'min_impurity_decrease': 0.0002758810670570913, 'ccp_alpha': 2.0299102983257465e-06}
+Random Forest: {'n_estimators': 321, 'max_depth': 19, 'min_samples_split': 6}
+Gradient Boosting: {'n_estimators': 224, 'learning_rate': 0.05253340743438859, 'max_depth': 3}
+XGBoost: {'n_estimators': 333, 'learning_rate': 0.03409898061261008, 'max_depth': 5, 'subsample': 0.8047395061396536}
+SVM (RBF): {'C': 80.23170883395989, 'gamma': 0.029979676866909815}
+KNN: {'n_neighbors': 6, 'weights': 'distance'}
+Naive Bayes: {'var_smoothing': 2.434548038950515e-09}
+LightGBM: {'n_estimators': 352, 'learning_rate': 0.03533325239429207, 'num_leaves': 20, 'max_depth': 12}
+CatBoost: {'depth': 5, 'learning_rate': 0.060786211914687215, 'iterations': 351}
+MLP: {'hidden_layer_sizes': (100,), 'alpha': 0.0032591773230832145, 'learning_rate_init': 0.0002717384394594478}
+
+
+Random Forest: F1 = 0.5858
+SVM (RBF): F1 = 0.5761
+Gradient Boosting: F1 = 0.5667
+XGBoost: F1 = 0.5665
+Decision Tree: F1 = 0.5256
+KNN: F1 = 0.4931
+Naive Bayes: F1 = 0.4358
+Logistic Regression: F1 = 0.3123
+
+Logistic Regression: {'C': 2.0429640683477017, 'max_iter': 100}
+Decision Tree: {'criterion': 'log_loss', 'splitter': 'random', 'max_depth': 14, 'min_samples_split': 8, 'min_samples_leaf': 13, 'max_features': None, 'min_impurity_decrease': 0.0010152594749921135, 'ccp_alpha': 0.00020412918552561952}
+Random Forest: {'n_estimators': 925, 'criterion': 'entropy', 'max_depth': 27, 'min_samples_split': 24, 'min_samples_leaf': 15, 'max_features': None, 'min_impurity_decrease': 0.00035946795180702093, 'bootstrap': True, 'class_weight': 'balanced_subsample'}
+Gradient Boosting: {'loss': 'exponential', 'learning_rate': 0.016781314481250153, 'n_estimators': 389, 'subsample': 0.5927219886055356, 'criterion': 'squared_error', 'min_samples_split': 19, 'min_samples_leaf': 8, 'max_depth': 7, 'max_features': 'log2'}
+XGBoost: {'n_estimators': 934, 'max_depth': 4, 'learning_rate': 0.03179901406916362, 'subsample': 0.9119653571391468, 'colsample_bytree': 0.8237476699320725, 'reg_alpha': 0.00019966622282362737, 'reg_lambda': 0.06550143866597878, 'eval_metric': 'mape'}
+SVM (RBF): {'C': 710.0017072278584, 'gamma': 0.003919762589004204, 'class_weight': 'balanced'}
+KNN: {'n_neighbors': 6, 'weights': 'distance', 'p': 2, 'metric': 'euclidean'}
+Naive Bayes: {'var_smoothing': 7.703842275866116e-07}
+
+Gradient Boosting: F1 = 0.5739
+XGBoost: F1 = 0.5730
+SVM (RBF): F1 = 0.5719
+Random Forest: F1 = 0.5663
+Decision Tree: F1 = 0.5422
+KNN: F1 = 0.4931
+Naive Bayes: F1 = 0.4358
+Logistic Regression: F1 = 0.3124
+
+Logistic Regression: {'C': 0.6984919531946239, 'max_iter': 500}
+Decision Tree: {'criterion': 'entropy', 'splitter': 'best', 'max_depth': 6, 'min_samples_split': 45, 'min_samples_leaf': 20, 'max_features': None, 'min_impurity_decrease': 0.0025231371953309102, 'ccp_alpha': 0.002098265211718317}
+Random Forest: {'n_estimators': 270, 'criterion': 'log_loss', 'max_depth': 14, 'min_samples_split': 19, 'min_samples_leaf': 10, 'max_features': None, 'min_impurity_decrease': 0.004364395673691842, 'bootstrap': True, 'class_weight': 'balanced'}
+Gradient Boosting: {'loss': 'log_loss', 'learning_rate': 0.014274420729642643, 'n_estimators': 687, 'subsample': 0.9390592609762246, 'criterion': 'friedman_mse', 'min_samples_split': 7, 'min_samples_leaf': 17, 'max_depth': 8, 'max_features': 'sqrt'}
+XGBoost: {'n_estimators': 972, 'max_depth': 4, 'learning_rate': 0.013156863892246322, 'subsample': 0.6521390761582693, 'colsample_bytree': 0.8494482634327796, 'reg_alpha': 0.0002941999072449382, 'reg_lambda': 4.0173224814494825e-06, 'eval_metric': 'mphe'}
+SVM (RBF): {'C': 6642.679533056039, 'gamma': 0.0018342970700512217, 'class_weight': 'balanced'}
+KNN: {'n_neighbors': 6, 'weights': 'distance', 'p': 1, 'metric': 'euclidean'}
+Naive Bayes: {'var_smoothing': 1.7844266697875203e-08}
+
+
+
+
+CatBoost: F1 = 0.6052
+CatBoost: {'iterations': 416, 'learning_rate': 0.016142916949417187, 'depth': 5, 'l2_leaf_reg': 0.0026257534323976266, 'rsm': 0.5411506888385599, 'subsample': 0.9454827397199126, 'border_count': 224, 'random_strength': 1.9189217052255272, 'auto_class_weights': 'SqrtBalanced'}
