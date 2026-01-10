@@ -71,3 +71,26 @@ CatBoost: {'iterations': 416, 'learning_rate': 0.016142916949417187, 'depth': 5,
 
 MLP: F1 = 0.5578
 MLP: {'hidden_layer_sizes': (100, 50), 'activation': 'logistic', 'solver': 'adam', 'alpha': 0.0002439660267886242, 'learning_rate': 'constant', 'learning_rate_init': 0.0035252052289406555, 'max_iter': 100}
+
+
+CatBoost: F1 = 0.6055
+Random Forest: F1 = 0.5999
+SVM (RBF): F1 = 0.5740
+Gradient Boosting: F1 = 0.5722
+MLP: F1 = 0.5644
+XGBoost: F1 = 0.5585
+Decision Tree: F1 = 0.5422
+KNN: F1 = 0.4833
+Naive Bayes: F1 = 0.4359
+Logistic Regression: F1 = 0.3173
+
+Logistic Regression: {'C': 36.07359102656848, 'max_iter': 100}
+Decision Tree: {'criterion': 'log_loss', 'splitter': 'best', 'max_depth': 24, 'min_samples_split': 50, 'min_samples_leaf': 5, 'max_features': None, 'min_impurity_decrease': 0.00254500096757982, 'ccp_alpha': 0.000617225311576172}
+Random Forest: {'n_estimators': 363, 'criterion': 'gini', 'max_depth': 37, 'min_samples_split': 14, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'min_impurity_decrease': 0.00030128686047781704, 'bootstrap': True, 'class_weight': 'balanced_subsample'}
+Gradient Boosting: {'loss': 'log_loss', 'learning_rate': 0.06761082070147398, 'n_estimators': 348, 'subsample': 0.8695558907393848, 'criterion': 'friedman_mse', 'min_samples_split': 17, 'min_samples_leaf': 5, 'max_depth': 3, 'max_features': None}
+XGBoost: {'n_estimators': 372, 'max_depth': 6, 'learning_rate': 0.08675819523398683, 'subsample': 0.6531173762824592, 'colsample_bytree': 0.5918534070596795, 'reg_alpha': 1.7628077592813022e-05, 'reg_lambda': 2.967336985328638, 'eval_metric': 'mape'}
+SVM (RBF): {'C': 131.53870633365824, 'gamma': 0.012947334332863658, 'class_weight': 'balanced'}
+KNN: {'n_neighbors': 5, 'weights': 'uniform', 'p': 2, 'metric': 'euclidean'}
+Naive Bayes: {'var_smoothing': 2.2862583271311223e-09}
+CatBoost: {'iterations': 1079, 'learning_rate': 0.015963622858399085, 'depth': 4, 'l2_leaf_reg': 7.4626737583365355, 'rsm': 0.8547169090067795, 'subsample': 0.9391950555967183, 'border_count': 173, 'random_strength': 0.010519742271091448, 'auto_class_weights': 'SqrtBalanced'}
+MLP: {'hidden_layer_sizes': (200,), 'activation': 'relu', 'solver': 'adam', 'alpha': 0.0035511633685736885, 'learning_rate': 'adaptive', 'learning_rate_init': 0.0003698550165594024, 'max_iter': 500}
