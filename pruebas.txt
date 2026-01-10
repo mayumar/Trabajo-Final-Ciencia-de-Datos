@@ -1,5 +1,5 @@
 CatBoost: F1 = 0.5769
-LightGBM: F1 = 0.5754 -> Mejor resultado en Kaggle
+LightGBM: F1 = 0.5754 -> Segundo mejor resultado en Kaggle
 XGBoost: F1 = 0.5695
 Gradient Boosting: F1 = 0.5692
 MLP: F1 = 0.5603
@@ -74,7 +74,7 @@ MLP: {'hidden_layer_sizes': (100, 50), 'activation': 'logistic', 'solver': 'adam
 
 
 CatBoost: F1 = 0.6055
-Random Forest: F1 = 0.5999
+Random Forest: F1 = 0.5999 -> Mejor resultado en Kaggle
 SVM (RBF): F1 = 0.5740
 Gradient Boosting: F1 = 0.5722
 MLP: F1 = 0.5644
@@ -94,3 +94,7 @@ KNN: {'n_neighbors': 5, 'weights': 'uniform', 'p': 2, 'metric': 'euclidean'}
 Naive Bayes: {'var_smoothing': 2.2862583271311223e-09}
 CatBoost: {'iterations': 1079, 'learning_rate': 0.015963622858399085, 'depth': 4, 'l2_leaf_reg': 7.4626737583365355, 'rsm': 0.8547169090067795, 'subsample': 0.9391950555967183, 'border_count': 173, 'random_strength': 0.010519742271091448, 'auto_class_weights': 'SqrtBalanced'}
 MLP: {'hidden_layer_sizes': (200,), 'activation': 'relu', 'solver': 'adam', 'alpha': 0.0035511633685736885, 'learning_rate': 'adaptive', 'learning_rate_init': 0.0003698550165594024, 'max_iter': 500}
+
+
+LightGBM: F1 = 0.5691
+LightGBM: {'n_estimators': 257, 'learning_rate': 0.03664702412813628, 'num_leaves': 21, 'max_depth': 13}
