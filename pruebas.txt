@@ -98,3 +98,21 @@ MLP: {'hidden_layer_sizes': (200,), 'activation': 'relu', 'solver': 'adam', 'alp
 
 LightGBM: F1 = 0.5691
 LightGBM: {'n_estimators': 257, 'learning_rate': 0.03664702412813628, 'num_leaves': 21, 'max_depth': 13}
+
+
+
+
+
+
+	F1_mean	F1_std
+CatBoost	0.600793	0.020982
+Random Forest	0.599928	0.019493
+SVM (RBF)	0.571153	0.014821
+LightGBM	0.569099	0.022375
+XGBoost	0.563757	0.023795
+Gradient Boosting	0.554333	0.017128
+MLP	0.550083	0.026757
+Decision Tree	0.532475	0.016770
+KNN	0.486996	0.020705
+Naive Bayes	0.435934	0.014309
+Logistic Regression	0.316797	0.020027
